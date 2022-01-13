@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let playerbottom=250;
     let playerleft=50;
     let isJumping=false;
+    let upward;
+    let downward;
     
     
     function createPlayer() {
@@ -53,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
     function jump(){
-        // clearInterval(downward);
+        clearInterval(downward);
         isJumping=true;
         upward = setInterval(function(){
             playerbottom+=20;
