@@ -75,6 +75,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (playerbottom <=0){
                 gameOver();
             }
+            platforms.forEach(platform=>{
+                if((platform.bottom+15>=playerbottom)&&
+                    (playerbottom>=playerbottom)&&
+                    (playerleft + 100>=platform.left)&&
+                    (playerleft<=platform.left+100-15)&&
+                    (!isJumping)
+                ){
+                    jump();
+                }
+            })
 
         },30)
     }
