@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let score = 0;
     const loosingSound= new Audio('loosingSound.wav');
     const jumpSound = new Audio('jumpSound.wav');
-    const gameSound = new Audio('GameSound.mp3');
+    
     
     function createPlayer() {
         grid.appendChild(player);

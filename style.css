@@ -14,9 +14,10 @@ body{
     text-align: center;
     font-family: 'Denk One', sans-serif;
     font-size: 30px;
-    height: 55px;
+    height: 45px;
     background-color: black;
     padding-top: 15px;
+    
 }
 .line{
     background-color: rgb(196, 75, 226);
